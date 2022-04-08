@@ -1,0 +1,73 @@
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/card.css ***!
+  \***************************************************************************/
+.card {
+
+    width: 110px;
+    height: 110px;
+
+    border-radius: 0.3em;
+    margin: 10px;
+    
+    background-image: linear-gradient(45deg, #2d388a, #00aeef);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    transition: 0.3s;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+  }
+  
+  .icon {
+    position: absolute;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
+    border-radius: 0.3em;
+    backface-visibility: hidden;
+    transform: rotateY(-180deg);
+  }
+
+  .card.see {
+    transform: rotateY(-180deg);
+  }
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/board.css ***!
+  \****************************************************************************/
+.board {
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(6, auto);
+    align-items: center;
+    align-content: center;
+    max-width: 60rem; 
+}
+
+  
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/app.css ***!
+  \**************************************************************************/
+body {
+    font-family: sans-serif;
+    font-size: 2rem;
+}
+  
+img {
+  width: 70px;
+}
+
+.infoContainer {
+  display: grid;
+  place-items: center;
+}
+
+.movementsLabel {
+  margin-bottom: 20px;
+}
+
+.completedLabel {
+  padding-top: 0;
+  margin-top: 0;
+}
