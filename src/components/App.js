@@ -3,6 +3,7 @@ import Board from "./Board";
 import "./app.css";
 
 export default function App() {
+  const items = new Array();
   const [card1, setCard1] = useState(null);
   const [card2, setCard2] = useState(null);
   const [movements, setMovements] = useState(0);
