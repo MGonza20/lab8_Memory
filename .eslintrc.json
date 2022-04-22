@@ -17,7 +17,7 @@
     "plugins": [
         "react"
     ],
-    "ignorePatterns": ["node_modules", "bundle", "webpack.config.js"],
+    "ignorePatterns": ["node_modules", "bundle", "webpack.config.js", "babel.config.js"],
     "rules": {
         "linebreak-style": ["error", "windows"]
     }
